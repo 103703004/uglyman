@@ -11,7 +11,7 @@ public class loadImg : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        eye = GameObject.Find("/Canvas/eye");
+        eye = GameObject.Find("/man/eye");
     }
 	
 	// Update is called once per frame
