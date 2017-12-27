@@ -20,7 +20,7 @@ public class press : MonoBehaviour {
 
     void OnMouseDown()
     {
-        //Debug.Log(Input.mousePosition);
+        Debug.Log(Input.mousePosition);
         text.text = Input.mousePosition.ToString();
         canvas.SetActive(true);
     }
